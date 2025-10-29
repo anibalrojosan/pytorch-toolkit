@@ -27,13 +27,19 @@ uv venv
 ### 3. Install dependencies
 With the environment activated, install all the required packages from the `pyproject.toml` file.
 ```bash
-uv pip sync
+uv sync
 ```
 
-### 4. Run Jupyter
+### (Optional) Register a named Jupyter kernel
+If you want to use a named Jupyter kernel, you can register it with the following command.
+```bash
+uv run python -m ipykernel install --user --name pytorch
+```
+
+### 4. Launch Jupyter
 You can now launch Jupyter or open the `notebooks/` directory in a compatible IDE like VS Code.
 ```bash
-jupyter notebook
+uv run jupyter notebook
 ```
 
 ---
@@ -45,5 +51,6 @@ Here is a list of the available notebooks and the topics they cover.
 | # | Topic | Notebook Path | Description |
 |---|---|---|---|
 | 01 | **Linear Regression** | [`notebooks/linear_regression/linear_regression.ipynb`](./notebooks/linear_regression/linear_regression.ipynb) | A foundational look at building a simple linear regression model from scratch, covering model definition, training loops, and evaluation. |
+| 02 | **Logistic Regression** | [`notebooks/logistic_regression/logistic_regression.ipynb`](./notebooks/logistic_regression/logistic_regression.ipynb) | Classic logistic regression using a single linear layer + sigmoid on linearly separable data, with training, evaluation, and linear decision boundary visualization. |
 
 *More notebooks will be added as I continue learning.*
