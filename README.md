@@ -52,5 +52,6 @@ Here is a list of the available notebooks and the topics they cover.
 |---|---|---|---|
 | 01 | **Linear Regression** | [`notebooks/linear_regression/linear_regression.ipynb`](./notebooks/linear_regression/linear_regression.ipynb) | A foundational look at building a simple linear regression model from scratch, covering model definition, training loops, and evaluation. |
 | 02 | **Logistic Regression** | [`notebooks/logistic_regression/logistic_regression.ipynb`](./notebooks/logistic_regression/logistic_regression.ipynb) | Classic logistic regression using a single linear layer + sigmoid on linearly separable data, with training, evaluation, and linear decision boundary visualization. |
+| 03 | **Neural Network (MLP) for classification** | [`notebooks\neural_networks\nn_for_classification.ipynb`](./notebooks/neural_networks/nn_for_classification.ipynb) | Small Multilayer Perceptron for binary and multiclass classification tasks. |
 
 *More notebooks will be added as I continue learning.*
